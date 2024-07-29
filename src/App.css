@@ -645,7 +645,7 @@ header .navlinks a:hover {
     display: grid;
     grid-template-columns: auto;
     gap: 1rem;
-    margin: 1rem;
+    margin: 1rem 0;
   }
 
   .tokeno p {
