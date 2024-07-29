@@ -16,11 +16,11 @@ function App() {
       <header>
         <div className="logo">$BRUH</div>
         <div className="navlinks">
-          <a href="">Story</a>
-          <a href="">The Team</a>
-          <a href="">Treasury</a>
-          <a href="">Roadmap</a>
-          <a href="">Tokenomics</a>
+          <a href="#story">Story</a>
+          <a href="#team">The Team</a>
+          <a href="#treasury">Treasury</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#tokenomics">Tokenomics</a>
         </div>
       </header>
       <div className="hero">
@@ -36,6 +36,7 @@ function App() {
           <img src={drive} alt="drive png" />
         </div>
       </div>
+      <section id='story'>
       <div className="story">
         <h1>The Story</h1>
         <div className="story-p">
@@ -43,6 +44,7 @@ function App() {
         </div>
         <img src={look} alt="look up" />
       </div>
+      </section>
       <div className="treasury">
         <h1>Join the sonic boom with BRUH</h1>
         <img src={blade} alt="blades png" />
@@ -62,6 +64,7 @@ function App() {
         <p className="join">Join the community</p>
         <button>Jump In</button>
       </div>
+      <section id='treasury'>
       <div className="treasure">
         <h1>The BRUH Treasury</h1>
         <p>The Treasury will used to facilitate strategic partnerships and run giveaways for our BRUH Holders.</p>
@@ -71,6 +74,7 @@ function App() {
           <p>The Treasury will also be utilized to attract newcomers to the Sonic Ecosystem, through airdrops in both $BRUH $FTM and $S tokens. Notably, $BRUH tokens for airdrops will be bought back from the Market avoid big negative price fluctuations.</p>
         </div>
       </div>
+      </section>
       <div className="academy">
         <h1>BRUH Sonic Academy</h1>
         <div className="academy-p">
@@ -78,6 +82,7 @@ function App() {
           </p>
         </div>
       </div>
+      <section id="tokenomics">
       <div className="tokenomics">
         <h1>Tokenomics</h1>
         <div className="tokeno">
@@ -87,6 +92,7 @@ function App() {
           <p>Team/Marketing/Partnerships: 100,000,000</p>
         </div>
       </div>
+      </section>
       <div className="vesting">
         <h1>Team vesting and liquidity burn</h1>
         <p>The Teams allocation will be vested for a 180day period while the Liquidity Pool will be locked for 180days from Listing.</p>
@@ -95,6 +101,7 @@ function App() {
           <p>Upon Migration to Sonic, the LP will be burnt to solidify our community.</p>
         </div>
       </div>
+      <section id="roadmap">
       <div className="roadmap">
         <h1>Roadmap</h1>
         <div className="map">
@@ -113,6 +120,8 @@ function App() {
           <p>Exchange Listing</p>
         </div>
       </div>
+      </section>
+      <section id="team">
       <div className="team">
         <h1>The Team</h1>
         <div className="twitter">
@@ -126,6 +135,7 @@ function App() {
           <a href="https://medium.com/@SonicBruh"><img src={medium} alt="medium" /></a>
         </div>
       </div>
+      </section>
     </div>
   )
 }
