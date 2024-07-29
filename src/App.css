@@ -1,0 +1,760 @@
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+header .logo {
+  font-size: 2rem;
+}
+
+header .navlinks a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #555555;
+  font-size: 1.5rem;
+  transition: all 0.2s linear;
+}
+
+header .navlinks a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.hero-img {
+  width: 450px;
+  padding: 2rem;
+}
+
+.hero-img img {
+  transform: rotateZ(5deg);
+  border: 2px white solid;
+}
+
+.hero-txt {
+  padding-right: 4rem;
+}
+
+.hero-txt h1 {
+  font-size: 3.5rem;
+  color: #222222;
+}
+
+.hero-txt h1 span {
+  color: #e85699;
+  font-size: 4rem;
+}
+
+.hero-p {
+  padding: 1.5rem;
+  border: 1px #222222 solid;
+  color: transparent;
+  border-radius: 2rem;
+  max-width: fit-content;
+}
+
+.hero-p p {
+  color: #e85699;
+}
+
+.hero button {
+  background-color: #e85699;
+  color: white;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 5px #55555544;
+  padding: 0.7rem;
+  width: 100%;
+  font-family: "Chewy", system-ui;
+  margin: 3rem auto;
+  transform: rotateZ(-5deg);
+  border-radius: 5px;
+}
+
+.story {
+  background-color: #cbffc5;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.story h1 {
+  text-align: center;
+  font-size: 3rem;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.story-p {
+  background-color: white;
+  border: 1px solid #222222;
+  border-radius: 9px;
+  max-width: 60%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.story-p p {
+  text-align: center;
+}
+
+.story img {
+  width: 400px;
+}
+
+.treasury {
+  padding: 2rem 4rem;
+  background-color: #451200;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.treasury h1 {
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #000000a8;
+  font-size: 3rem;
+}
+
+.treasury img {
+  width: 550px;
+  margin: 1rem 0;
+  border-radius: 7px;
+}
+
+.tra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.tra p {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.left {
+  transform: rotateZ(10deg);
+}
+.right {
+  transform: rotateZ(-10deg);
+}
+
+.treasury-p {
+  margin: 2rem;
+  max-width: 60%;
+  padding: 2rem;
+  border-radius: 11px;
+  color: white;
+  border: 1px white solid;
+  background: linear-gradient(90deg, #f36535 0%, #8d3b1f 100%);
+}
+
+.treasury-p p {
+  text-align: center;
+}
+
+.t-d-p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.bro {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bro h1 {
+  font-size: 3rem;
+  color: #0cc069;
+}
+
+.join {
+  margin-top: 1rem;
+}
+
+.bro button {
+  background-color: #e85699;
+  color: white;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 5px #55555544;
+  padding: 0.7rem;
+  width: 30%;
+  font-family: "Chewy", system-ui;
+  margin: 3rem auto;
+  transform: rotateZ(3deg);
+  border-radius: 5px;
+}
+
+.treasure {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f36535;
+  color: white;
+}
+
+.treasure img {
+  width: 450px;
+  border: 2px white solid;
+  border-radius: 7px;
+  margin: 2rem;
+}
+
+.treasure h1 {
+  font-size: 3rem;
+}
+
+.treasure-p {
+  background-color: #4c1f1a;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  max-width: 65%;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.academy {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e85699;
+  color: white;
+}
+
+.academy h1 {
+  font-size: 3rem;
+}
+
+.academy-p {
+  background-color: white;
+  padding: 1.5rem;
+  margin: 1rem;
+  color: black;
+  border-radius: 7px;
+  max-width: 65%;
+  text-align: center;
+}
+
+.tokenomics {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tokenomics h1 {
+  color: #4c1f1a;
+  font-size: 3rem;
+}
+
+.tokeno {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.tokeno p {
+  background-color: #451200;
+  color: white;
+  border-radius: 4px;
+  border: 2px #000 solid;
+  padding: 1.5rem;
+}
+
+.vesting {
+  background-color: white;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vesting h1 {
+  font-size: 3rem;
+}
+
+.vesting img {
+  width: 400px;
+  border-radius: 11px;
+  transform: rotateZ(3deg);
+  margin: 2rem;
+}
+
+.vesting-p {
+  background-color: #451200;
+  color: white;
+  border-radius: 4px;
+  border: 2px #000 solid;
+  padding: 1.5rem;
+}
+
+.roadmap {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.roadmap h1 {
+  color: #451200;
+  font-size: 3rem;
+}
+
+.map {
+  text-align: center;
+  margin: 1.5rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.map p {
+  background-color: #e1f8ff;
+  color: black;
+  padding: 0.8rem 1rem;
+  margin: 9px;
+  border-radius: 4px;
+}
+
+.team {
+  background-color: white;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team h1 {
+  font-size: 3rem;
+}
+
+.twitter {
+  background-color: #fff9f3;
+  padding: 1.5rem;
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.twitter h2 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}
+
+.twitter img {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials img {
+  width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 1.5rem 2rem;
+  }
+  header .logo {
+    font-size: 1.5rem;
+  }
+
+  header .navlinks {
+    display: none;
+  }
+
+  .break {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 85%;
+    padding: 2rem;
+  }
+
+  .hero-img img {
+    transform: rotateZ(4deg);
+    border: 2px white solid;
+  }
+
+  .hero-txt {
+    padding-right: 0;
+  }
+
+  .hero-txt h1 {
+    font-size: 2rem;
+    color: #222222;
+  }
+
+  .hero-txt h1 span {
+    color: #e85699;
+    font-size: 2.5rem;
+  }
+
+  .hero-p p {
+    color: #e85699;
+  }
+
+  .story {
+    background-color: #cbffc5;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .story h1 {
+    text-align: center;
+    font-size: 2rem;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fff;
+  }
+
+  .story-p {
+    background-color: white;
+    border: 1px solid #222222;
+    border-radius: 9px;
+    max-width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .story-p p {
+    text-align: center;
+  }
+
+  .story img {
+    width: 90%;
+  }
+
+  .treasury {
+    padding: 2rem 2rem;
+    background-color: #451200;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .treasury h1 {
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000000a8;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .treasury img {
+    width: 85%;
+    margin: 1rem 0;
+    border-radius: 7px;
+  }
+
+  .tra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+  }
+
+  .tra p {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 7px;
+    font-size: 0.6rem;
+  }
+
+  .left {
+    transform: rotateZ(10deg);
+  }
+  .right {
+    transform: rotateZ(-10deg);
+  }
+
+  .treasury-p {
+    margin: 2rem;
+    max-width: 100%;
+    padding: 2rem;
+    border-radius: 11px;
+    color: white;
+    border: 1px white solid;
+    background: linear-gradient(90deg, #f36535 0%, #8d3b1f 100%);
+  }
+
+  .treasury-p p {
+    text-align: center;
+  }
+
+  .t-d-p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .bro {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bro h1 {
+    font-size: 2rem;
+    color: #0cc069;
+    text-align: center;
+  }
+
+  .join {
+    margin-top: 1rem;
+  }
+
+  .bro button {
+    background-color: #e85699;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: 0 2px 5px #55555544;
+    padding: 0.7rem;
+    width: 30%;
+    font-family: "Chewy", system-ui;
+    margin: 1rem auto;
+    transform: rotateZ(3deg);
+    border-radius: 5px;
+  }
+
+  .treasure {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f36535;
+    color: white;
+    text-align: center;
+  }
+
+  .treasure img {
+    width: 85%;
+    border: 2px white solid;
+    border-radius: 7px;
+    margin: 2rem;
+  }
+
+  .treasure h1 {
+    font-size: 2rem;
+  }
+
+  .treasure-p {
+    background-color: #4c1f1a;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    max-width: 100%;
+    border-radius: 7px;
+    text-align: center;
+  }
+
+  .academy {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e85699;
+    color: white;
+    text-align: center;
+  }
+
+  .academy h1 {
+    font-size: 2rem;
+  }
+
+  .academy-p {
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1rem;
+    color: black;
+    border-radius: 7px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .tokenomics {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .tokenomics h1 {
+    color: #4c1f1a;
+    font-size: 2rem;
+  }
+
+  .tokeno {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+    margin: 1rem;
+  }
+
+  .tokeno p {
+    background-color: #451200;
+    color: white;
+    border-radius: 4px;
+    border: 2px #000 solid;
+    padding: 1.5rem;
+  }
+
+  .vesting {
+    background-color: white;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vesting h1 {
+    font-size: 2rem;
+  }
+
+  .vesting img {
+    width: 85%;
+    border-radius: 11px;
+    transform: rotateZ(3deg);
+    margin: 2rem;
+  }
+
+  .vesting-p {
+    background-color: #451200;
+    color: white;
+    border-radius: 4px;
+    border: 2px #000 solid;
+    padding: 1.5rem;
+  }
+
+  .roadmap {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .roadmap h1 {
+    color: #451200;
+    font-size: 2rem;
+  }
+
+  .map {
+    text-align: center;
+    margin: 1.5rem;
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .map p {
+    background-color: #e1f8ff;
+    color: black;
+    padding: 0.8rem 1rem;
+    margin: 9px;
+    border-radius: 4px;
+  }
+
+  .team {
+    background-color: white;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .team h1 {
+    font-size: 2rem;
+  }
+
+  .twitter {
+    background-color: #fff9f3;
+    padding: 1.5rem;
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+  }
+  .twitter h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .twitter img {
+    border-radius: 50%;
+    width: 200px;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .socials img {
+    width: 40px;
+  }
+}
