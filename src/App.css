@@ -521,9 +521,9 @@ header .navlinks a:hover {
   }
 
   .treasury-p {
-    margin: 2rem;
+    margin: 2rem 0;
     max-width: 100%;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 11px;
     color: white;
     border: 1px white solid;
